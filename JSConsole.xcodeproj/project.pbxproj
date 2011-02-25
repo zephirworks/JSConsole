@@ -1,0 +1,278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A913F82413181EC00048CE76 /* UIWebViewAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = A913F81813181EC00048CE76 /* UIWebViewAddition.m */; };
+		A913F82513181EC00048CE76 /* UIWebViewAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = A913F81913181EC00048CE76 /* UIWebViewAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A913F82613181EC00048CE76 /* TestWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = A913F81A13181EC00048CE76 /* TestWebView.m */; };
+		A913F82713181EC00048CE76 /* TestWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = A913F81B13181EC00048CE76 /* TestWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A913F82813181EC00048CE76 /* ScriptDebugDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A913F81C13181EC00048CE76 /* ScriptDebugDelegate.m */; };
+		A913F82913181EC00048CE76 /* ScriptDebugDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A913F81D13181EC00048CE76 /* ScriptDebugDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A913F82A13181EC00048CE76 /* JSConsoleInitializer.m in Sources */ = {isa = PBXBuildFile; fileRef = A913F81E13181EC00048CE76 /* JSConsoleInitializer.m */; };
+		A913F82B13181EC00048CE76 /* JSConsoleInitializer.h in Headers */ = {isa = PBXBuildFile; fileRef = A913F81F13181EC00048CE76 /* JSConsoleInitializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A913F82C13181EC00048CE76 /* ExceptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A913F82013181EC00048CE76 /* ExceptionViewController.m */; };
+		A913F82D13181EC00048CE76 /* ExceptionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A913F82113181EC00048CE76 /* ExceptionViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A913F82E13181EC00048CE76 /* Console.m in Sources */ = {isa = PBXBuildFile; fileRef = A913F82213181EC00048CE76 /* Console.m */; };
+		A913F82F13181EC00048CE76 /* Console.h in Headers */ = {isa = PBXBuildFile; fileRef = A913F82313181EC00048CE76 /* Console.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA747D9F0F9514B9006C5449 /* JSConsole_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* JSConsole_Prefix.pch */; settings = {ATTRIBUTES = (Public, ); }; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A913F81813181EC00048CE76 /* UIWebViewAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIWebViewAddition.m; path = Classes/UIWebViewAddition.m; sourceTree = "<group>"; };
+		A913F81913181EC00048CE76 /* UIWebViewAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIWebViewAddition.h; path = Classes/UIWebViewAddition.h; sourceTree = "<group>"; };
+		A913F81A13181EC00048CE76 /* TestWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestWebView.m; path = Classes/TestWebView.m; sourceTree = "<group>"; };
+		A913F81B13181EC00048CE76 /* TestWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestWebView.h; path = Classes/TestWebView.h; sourceTree = "<group>"; };
+		A913F81C13181EC00048CE76 /* ScriptDebugDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScriptDebugDelegate.m; path = Classes/ScriptDebugDelegate.m; sourceTree = "<group>"; };
+		A913F81D13181EC00048CE76 /* ScriptDebugDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScriptDebugDelegate.h; path = Classes/ScriptDebugDelegate.h; sourceTree = "<group>"; };
+		A913F81E13181EC00048CE76 /* JSConsoleInitializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSConsoleInitializer.m; path = Classes/JSConsoleInitializer.m; sourceTree = "<group>"; };
+		A913F81F13181EC00048CE76 /* JSConsoleInitializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSConsoleInitializer.h; path = Classes/JSConsoleInitializer.h; sourceTree = "<group>"; };
+		A913F82013181EC00048CE76 /* ExceptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExceptionViewController.m; path = Classes/ExceptionViewController.m; sourceTree = "<group>"; };
+		A913F82113181EC00048CE76 /* ExceptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExceptionViewController.h; path = Classes/ExceptionViewController.h; sourceTree = "<group>"; };
+		A913F82213181EC00048CE76 /* Console.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Console.m; path = Classes/Console.m; sourceTree = "<group>"; };
+		A913F82313181EC00048CE76 /* Console.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Console.h; path = Classes/Console.h; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* JSConsole_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSConsole_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libJSConsole.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJSConsole.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libJSConsole.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* JSConsole */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = JSConsole;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A913F81813181EC00048CE76 /* UIWebViewAddition.m */,
+				A913F81913181EC00048CE76 /* UIWebViewAddition.h */,
+				A913F81A13181EC00048CE76 /* TestWebView.m */,
+				A913F81B13181EC00048CE76 /* TestWebView.h */,
+				A913F81C13181EC00048CE76 /* ScriptDebugDelegate.m */,
+				A913F81D13181EC00048CE76 /* ScriptDebugDelegate.h */,
+				A913F81E13181EC00048CE76 /* JSConsoleInitializer.m */,
+				A913F81F13181EC00048CE76 /* JSConsoleInitializer.h */,
+				A913F82013181EC00048CE76 /* ExceptionViewController.m */,
+				A913F82113181EC00048CE76 /* ExceptionViewController.h */,
+				A913F82213181EC00048CE76 /* Console.m */,
+				A913F82313181EC00048CE76 /* Console.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* JSConsole_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* JSConsole_Prefix.pch in Headers */,
+				A913F82513181EC00048CE76 /* UIWebViewAddition.h in Headers */,
+				A913F82713181EC00048CE76 /* TestWebView.h in Headers */,
+				A913F82913181EC00048CE76 /* ScriptDebugDelegate.h in Headers */,
+				A913F82B13181EC00048CE76 /* JSConsoleInitializer.h in Headers */,
+				A913F82D13181EC00048CE76 /* ExceptionViewController.h in Headers */,
+				A913F82F13181EC00048CE76 /* Console.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* JSConsole */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "JSConsole" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSConsole;
+			productName = JSConsole;
+			productReference = D2AAC07E0554694100DB518D /* libJSConsole.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "JSConsole" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* JSConsole */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* JSConsole */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A913F82413181EC00048CE76 /* UIWebViewAddition.m in Sources */,
+				A913F82613181EC00048CE76 /* TestWebView.m in Sources */,
+				A913F82813181EC00048CE76 /* ScriptDebugDelegate.m in Sources */,
+				A913F82A13181EC00048CE76 /* JSConsoleInitializer.m in Sources */,
+				A913F82C13181EC00048CE76 /* ExceptionViewController.m in Sources */,
+				A913F82E13181EC00048CE76 /* Console.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/JSConsole.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = JSConsole_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG_CONFIGURATION=1";
+				INSTALL_PATH = /usr/local/lib;
+				PRIVATE_HEADERS_FOLDER_PATH = /Headers/JSConsole;
+				PRODUCT_NAME = JSConsole;
+				PUBLIC_HEADERS_FOLDER_PATH = /Headers/JSConsole;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/JSConsole.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = JSConsole_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE_CONFIGURATION=1";
+				INSTALL_PATH = /usr/local/lib;
+				PRIVATE_HEADERS_FOLDER_PATH = /Headers/JSConsole;
+				PRODUCT_NAME = JSConsole;
+				PUBLIC_HEADERS_FOLDER_PATH = /Headers/JSConsole;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "JSConsole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "JSConsole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

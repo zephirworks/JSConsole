@@ -1,0 +1,6 @@
+.DS_Store
+JSConsole.xcodeproj/*.mode1v3
+JSConsole.xcodeproj/*.pbxuser
+JSConsoleSample/JSConsoleSample.xcodeproj/*.mode1v3
+JSConsoleSample/JSConsoleSample.xcodeproj/*.pbxuser
+build/
