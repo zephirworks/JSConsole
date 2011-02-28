@@ -119,7 +119,7 @@
     [exceptionViewController setTextContent:lines url:url line:lineno];
 
     if (!popoverController.popoverVisible) {
-        [popoverController presentPopoverFromRect:CGRectMake(50, 50, 0.0f, 0.0f) inView:view permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
+        [popoverController presentPopoverFromRect:CGRectMake(50, 50, 0.0f, 0.0f) inView:view permittedArrowDirections:0 animated:YES];
     }
 }
 
