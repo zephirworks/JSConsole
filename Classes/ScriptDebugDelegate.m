@@ -12,22 +12,27 @@
 @class WebScriptObject;
 @class WebScriptCallFrame;
 
+@interface ScriptDebugDelegate()
+- (BOOL) isPad;
+@end
+
 @implementation ScriptDebugDelegate
+
 @synthesize exceptionViewController;
 @synthesize view;
-
-
 
 - (id) initWithView:(UIView*)webView {
     if (self = [super init]) {
         dictionary = [[[NSMutableDictionary alloc] init] retain];
         sources = [[[NSMutableDictionary alloc] init] retain];
 
-        exceptionViewController = [[[ExceptionViewController alloc]
-                             init] retain];
-        popoverController = [[[UIPopoverController alloc]
-                                    initWithContentViewController:exceptionViewController] retain];
-        popoverController.delegate = self;
+        if ([self isPad]) {
+            exceptionViewController = [[[ExceptionViewController alloc]
+                                        init] retain];
+            popoverController = [[[UIPopoverController alloc]
+                                  initWithContentViewController:exceptionViewController] retain];
+            popoverController.delegate = self;
+        }
         view = webView;
     }
     
@@ -54,10 +59,14 @@
 - (void) dealloc {
     [dictionary release];
     [sources release];
-    [exceptionViewController release];
-    [popoverController release];
+    if ([self isPad]) {
+        [exceptionViewController release];
+        [popoverController release];
+    }
     [super dealloc];
 }
+
+#pragma mark UIPopoverControllerDelegate
 
 - (void)popoverControllerDidDismissPopover:(UIPopoverController *)thePopoverController {
     [exceptionViewController resetTextContent];
@@ -66,6 +75,17 @@
 - (BOOL)popoverControllerShouldDismissPopover:(UIPopoverController *)thePopoverController {
     return YES;
 }
+
+#pragma mark iPad
+
+- (BOOL) isPad {
+#ifdef UI_USER_INTERFACE_IDIOM
+    return (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad);
+#else
+    return NO;
+#endif
+}
+
 
 #ifdef DEBUG_CONFIGURATION
 
@@ -116,10 +136,12 @@
     [log release];
 
     //Log on PopOver
-    [exceptionViewController setTextContent:lines url:url line:lineno];
+    if ([self isPad]) {
+        [exceptionViewController setTextContent:lines url:url line:lineno];
 
-    if (!popoverController.popoverVisible) {
-        [popoverController presentPopoverFromRect:CGRectMake(50, 50, 0.0f, 0.0f) inView:view permittedArrowDirections:0 animated:YES];
+        if (!popoverController.popoverVisible) {
+            [popoverController presentPopoverFromRect:CGRectMake(50, 50, 0.0f, 0.0f) inView:view permittedArrowDirections:0 animated:YES];
+        }
     }
 }
 
